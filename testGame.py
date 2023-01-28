@@ -6,6 +6,7 @@ import pandas
 #import torch
 
 # Grab the pellets as fast as you can!
+weights = []
 
 # width: size of the grid
 # height: top left corner is (x=0, y=0)
@@ -36,3 +37,6 @@ while True:
 
     # MOVE <pacId> <x> <y>
     print("MOVE 0 15 10")
+
+def feedForward():
+    print("the forward method")
