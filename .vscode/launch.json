@@ -1,0 +1,63 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Spring2020Main",
+            "request": "launch",
+            "mainClass": "Spring2020Main",
+            "projectName": ""
+        },
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Spring2020Main",
+            "request": "launch",
+            "mainClass": "Spring2020Main",
+            "projectName": "spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exporter",
+            "request": "launch",
+            "mainClass": "com.codingame.gameengine.runner.Exporter",
+            "projectName": "spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Launch CssSchema",
+            "request": "launch",
+            "mainClass": "org.owasp.html.CssSchema",
+            "projectName": "spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Launch EbayPolicyExample",
+            "request": "launch",
+            "mainClass": "org.owasp.html.examples.EbayPolicyExample",
+            "projectName": "spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Launch SlashdotPolicyExample",
+            "request": "launch",
+            "mainClass": "org.owasp.html.examples.SlashdotPolicyExample",
+            "projectName": "spring-2020"
+        },
+        {
+            "type": "java",
+            "name": "Launch UrlTextExample",
+            "request": "launch",
+            "mainClass": "org.owasp.html.examples.UrlTextExample",
+            "projectName": "spring-2020"
+        }
+    ]
+}
