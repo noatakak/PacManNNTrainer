@@ -11,8 +11,8 @@ public class Spring2020Main {
 
         MultiplayerGameRunner gameRunner = new MultiplayerGameRunner();
 
-        gameRunner.addAgent("py config/Boss.py", "Blinky", "https://static.codingame.com/servlet/fileservlet?id=43829808065962");
-        gameRunner.addAgent("py C:/Users/noata/Documents/pacNNproject/PacManNNTrainer/testGame.py", "pacNet", null);
+        gameRunner.addAgent("py C:/Users/noata/PycharmProjects/PacManNNTrainer/javaGame/config/Boss.py", "Blinky", "https://static.codingame.com/servlet/fileservlet?id=43829808065962");
+        gameRunner.addAgent("py C:/Users/noata/PycharmProjects/PacManNNTrainer/testGame.py", "pacNet", null);
 
         gameRunner.setSeed(random.nextLong());
 
